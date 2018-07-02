@@ -124,13 +124,10 @@ func Init() {
 }
 
 func Enabled() bool {
-	return false // COMPLETELY OFF FOR NOW
-	/*
 		if !initialized {
 			panic("vgo: Enabled called before Init")
 		}
 		return enabled
-	*/
 }
 
 func InitMod() {
